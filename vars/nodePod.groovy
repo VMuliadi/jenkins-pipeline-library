@@ -57,7 +57,7 @@ spec:
   containers:
     - name: kubectl
       image: accelbyte/kubectl:v1.17.0
-      imagePullPolicy: IfNotPresent
+      imagePullPolicy: Always
       securityContext:
         privileged: true
       command:
